@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BA5765B1BE19A6100CBDFA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5765A1BE19A6100CBDFA8 /* main.m */; };
+		2BA5765E1BE19A6100CBDFA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5765D1BE19A6100CBDFA8 /* AppDelegate.m */; };
+		2BA576611BE19A6100CBDFA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA576601BE19A6100CBDFA8 /* ViewController.m */; };
+		2BA576641BE19A6100CBDFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA576621BE19A6100CBDFA8 /* Main.storyboard */; };
+		2BA576661BE19A6100CBDFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA576651BE19A6100CBDFA8 /* Assets.xcassets */; };
+		2BA576691BE19A6100CBDFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA576671BE19A6100CBDFA8 /* LaunchScreen.storyboard */; };
+		2BA576741BE19A6100CBDFA8 /* MafiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA576731BE19A6100CBDFA8 /* MafiaTests.m */; };
+		2BA5767F1BE19A6100CBDFA8 /* MafiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5767E1BE19A6100CBDFA8 /* MafiaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BA576701BE19A6100CBDFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA5764E1BE19A6100CBDFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA576551BE19A6100CBDFA8;
+			remoteInfo = Mafia;
+		};
+		2BA5767B1BE19A6100CBDFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BA5764E1BE19A6100CBDFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BA576551BE19A6100CBDFA8;
+			remoteInfo = Mafia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BA576561BE19A6100CBDFA8 /* Mafia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mafia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA5765A1BE19A6100CBDFA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA5765C1BE19A6100CBDFA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BA5765D1BE19A6100CBDFA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BA5765F1BE19A6100CBDFA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BA576601BE19A6100CBDFA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BA576631BE19A6100CBDFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BA576651BE19A6100CBDFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BA576681BE19A6100CBDFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BA5766A1BE19A6100CBDFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA5766F1BE19A6100CBDFA8 /* MafiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MafiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA576731BE19A6100CBDFA8 /* MafiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MafiaTests.m; sourceTree = "<group>"; };
+		2BA576751BE19A6100CBDFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA5767A1BE19A6100CBDFA8 /* MafiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MafiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA5767E1BE19A6100CBDFA8 /* MafiaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MafiaUITests.m; sourceTree = "<group>"; };
+		2BA576801BE19A6100CBDFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA576531BE19A6100CBDFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA5766C1BE19A6100CBDFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA576771BE19A6100CBDFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA5764D1BE19A6100CBDFA8 = {
+			isa = PBXGroup;
+			children = (
+				2BA576581BE19A6100CBDFA8 /* Mafia */,
+				2BA576721BE19A6100CBDFA8 /* MafiaTests */,
+				2BA5767D1BE19A6100CBDFA8 /* MafiaUITests */,
+				2BA576571BE19A6100CBDFA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA576571BE19A6100CBDFA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA576561BE19A6100CBDFA8 /* Mafia.app */,
+				2BA5766F1BE19A6100CBDFA8 /* MafiaTests.xctest */,
+				2BA5767A1BE19A6100CBDFA8 /* MafiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA576581BE19A6100CBDFA8 /* Mafia */ = {
+			isa = PBXGroup;
+			children = (
+				2BA5765C1BE19A6100CBDFA8 /* AppDelegate.h */,
+				2BA5765D1BE19A6100CBDFA8 /* AppDelegate.m */,
+				2BA5765F1BE19A6100CBDFA8 /* ViewController.h */,
+				2BA576601BE19A6100CBDFA8 /* ViewController.m */,
+				2BA576621BE19A6100CBDFA8 /* Main.storyboard */,
+				2BA576651BE19A6100CBDFA8 /* Assets.xcassets */,
+				2BA576671BE19A6100CBDFA8 /* LaunchScreen.storyboard */,
+				2BA5766A1BE19A6100CBDFA8 /* Info.plist */,
+				2BA576591BE19A6100CBDFA8 /* Supporting Files */,
+			);
+			path = Mafia;
+			sourceTree = "<group>";
+		};
+		2BA576591BE19A6100CBDFA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA5765A1BE19A6100CBDFA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BA576721BE19A6100CBDFA8 /* MafiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA576731BE19A6100CBDFA8 /* MafiaTests.m */,
+				2BA576751BE19A6100CBDFA8 /* Info.plist */,
+			);
+			path = MafiaTests;
+			sourceTree = "<group>";
+		};
+		2BA5767D1BE19A6100CBDFA8 /* MafiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA5767E1BE19A6100CBDFA8 /* MafiaUITests.m */,
+				2BA576801BE19A6100CBDFA8 /* Info.plist */,
+			);
+			path = MafiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA576551BE19A6100CBDFA8 /* Mafia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA576831BE19A6100CBDFA8 /* Build configuration list for PBXNativeTarget "Mafia" */;
+			buildPhases = (
+				2BA576521BE19A6100CBDFA8 /* Sources */,
+				2BA576531BE19A6100CBDFA8 /* Frameworks */,
+				2BA576541BE19A6100CBDFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mafia;
+			productName = Mafia;
+			productReference = 2BA576561BE19A6100CBDFA8 /* Mafia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BA5766E1BE19A6100CBDFA8 /* MafiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA576861BE19A6100CBDFA8 /* Build configuration list for PBXNativeTarget "MafiaTests" */;
+			buildPhases = (
+				2BA5766B1BE19A6100CBDFA8 /* Sources */,
+				2BA5766C1BE19A6100CBDFA8 /* Frameworks */,
+				2BA5766D1BE19A6100CBDFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA576711BE19A6100CBDFA8 /* PBXTargetDependency */,
+			);
+			name = MafiaTests;
+			productName = MafiaTests;
+			productReference = 2BA5766F1BE19A6100CBDFA8 /* MafiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BA576791BE19A6100CBDFA8 /* MafiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA576891BE19A6100CBDFA8 /* Build configuration list for PBXNativeTarget "MafiaUITests" */;
+			buildPhases = (
+				2BA576761BE19A6100CBDFA8 /* Sources */,
+				2BA576771BE19A6100CBDFA8 /* Frameworks */,
+				2BA576781BE19A6100CBDFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BA5767C1BE19A6100CBDFA8 /* PBXTargetDependency */,
+			);
+			name = MafiaUITests;
+			productName = MafiaUITests;
+			productReference = 2BA5767A1BE19A6100CBDFA8 /* MafiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA5764E1BE19A6100CBDFA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Kelo;
+				TargetAttributes = {
+					2BA576551BE19A6100CBDFA8 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2BA5766E1BE19A6100CBDFA8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2BA576551BE19A6100CBDFA8;
+					};
+					2BA576791BE19A6100CBDFA8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 2BA576551BE19A6100CBDFA8;
+					};
+				};
+			};
+			buildConfigurationList = 2BA576511BE19A6100CBDFA8 /* Build configuration list for PBXProject "Mafia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BA5764D1BE19A6100CBDFA8;
+			productRefGroup = 2BA576571BE19A6100CBDFA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA576551BE19A6100CBDFA8 /* Mafia */,
+				2BA5766E1BE19A6100CBDFA8 /* MafiaTests */,
+				2BA576791BE19A6100CBDFA8 /* MafiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA576541BE19A6100CBDFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA576691BE19A6100CBDFA8 /* LaunchScreen.storyboard in Resources */,
+				2BA576661BE19A6100CBDFA8 /* Assets.xcassets in Resources */,
+				2BA576641BE19A6100CBDFA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA5766D1BE19A6100CBDFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA576781BE19A6100CBDFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA576521BE19A6100CBDFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA576611BE19A6100CBDFA8 /* ViewController.m in Sources */,
+				2BA5765E1BE19A6100CBDFA8 /* AppDelegate.m in Sources */,
+				2BA5765B1BE19A6100CBDFA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA5766B1BE19A6100CBDFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA576741BE19A6100CBDFA8 /* MafiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA576761BE19A6100CBDFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA5767F1BE19A6100CBDFA8 /* MafiaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BA576711BE19A6100CBDFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA576551BE19A6100CBDFA8 /* Mafia */;
+			targetProxy = 2BA576701BE19A6100CBDFA8 /* PBXContainerItemProxy */;
+		};
+		2BA5767C1BE19A6100CBDFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BA576551BE19A6100CBDFA8 /* Mafia */;
+			targetProxy = 2BA5767B1BE19A6100CBDFA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BA576621BE19A6100CBDFA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA576631BE19A6100CBDFA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BA576671BE19A6100CBDFA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA576681BE19A6100CBDFA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA576811BE19A6100CBDFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BA576821BE19A6100CBDFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA576841BE19A6100CBDFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mafia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kelo.io.Mafia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BA576851BE19A6100CBDFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mafia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kelo.io.Mafia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BA576871BE19A6100CBDFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MafiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kelo.io.MafiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mafia.app/Mafia";
+			};
+			name = Debug;
+		};
+		2BA576881BE19A6100CBDFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MafiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kelo.io.MafiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mafia.app/Mafia";
+			};
+			name = Release;
+		};
+		2BA5768A1BE19A6100CBDFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MafiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kelo.io.MafiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mafia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2BA5768B1BE19A6100CBDFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MafiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kelo.io.MafiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Mafia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA576511BE19A6100CBDFA8 /* Build configuration list for PBXProject "Mafia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA576811BE19A6100CBDFA8 /* Debug */,
+				2BA576821BE19A6100CBDFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA576831BE19A6100CBDFA8 /* Build configuration list for PBXNativeTarget "Mafia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA576841BE19A6100CBDFA8 /* Debug */,
+				2BA576851BE19A6100CBDFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BA576861BE19A6100CBDFA8 /* Build configuration list for PBXNativeTarget "MafiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA576871BE19A6100CBDFA8 /* Debug */,
+				2BA576881BE19A6100CBDFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BA576891BE19A6100CBDFA8 /* Build configuration list for PBXNativeTarget "MafiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA5768A1BE19A6100CBDFA8 /* Debug */,
+				2BA5768B1BE19A6100CBDFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BA5764E1BE19A6100CBDFA8 /* Project object */;
+}
